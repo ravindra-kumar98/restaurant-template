@@ -1,0 +1,9 @@
+.logo{
+    width: 135px;
+    height: 80px;
+    object-fit: contain;
+}
+.blur-background{
+    position: relative;
+    z-index: 9;
+}

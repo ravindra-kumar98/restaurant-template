@@ -1,0 +1,4 @@
+#010D00 - Black
+#F2CA50 - Golden
+#D9A443 - Dark Golden
+#F2E291 - Light Golden
