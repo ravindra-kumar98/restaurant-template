@@ -628,7 +628,7 @@ textarea:-ms-input-placeholder {
 }
 
 .offcanvas_menu_wrapper {
-  width: 290px;
+  width: 100%;
   position: fixed;
   background: #fff;
   z-index: 999;
@@ -637,12 +637,12 @@ textarea:-ms-input-placeholder {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   left: 0;
-  margin-left: -300px;
+  margin-top: -100vh;
   padding: 65px 15px 30px;
   overflow-y: auto;
 }
 .offcanvas_menu_wrapper.active {
-  margin-left: 0;
+  margin-top: 0;
 }
 .offcanvas_menu_wrapper .slinky-theme-default {
   background: inherit;
@@ -726,6 +726,7 @@ textarea:-ms-input-placeholder {
 .canvas_open {
   display: none;
   margin-left: 30px;
+  margin-right: 30px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .canvas_open {
@@ -1526,37 +1527,37 @@ textarea:-ms-input-placeholder {
 }
 
 .header_logo {
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   z-index: 9;
 }
 @media only screen and (max-width: 575px) {
   .header_logo {
-    margin-bottom: -10px;
+    /* margin-bottom: -10px; */
   }
 }
 .header_logo a {
   display: inline-block;
   background: #010D00;
-  padding: 0px 25px 12px 20px;
-  border-radius: 0 0 55px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px 0 0 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_logo a {
     width: 110px;
-    padding: 10px 10px 30px;
-    border-radius: 0 0 47px;
+    /* padding: 10px 10px 30px;
+    border-radius: 0 0 47px; */
   }
 }
 @media only screen and (max-width: 767px) {
   .header_logo a {
-    padding: 10px 10px 25px;
-    border-radius: 0 0 40px;
+    /* padding: 10px 10px 25px;
+    border-radius: 0 0 40px; */
   }
 }
 @media only screen and (max-width: 575px) {
   .header_logo a {
-    padding: 8px 8px 19px;
-    border-radius: 0 0 30px;
+    /* padding: 8px 8px 19px; */
+    /* border-radius: 0 0 30px; */
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1567,11 +1568,13 @@ textarea:-ms-input-placeholder {
 @media only screen and (max-width: 767px) {
   .header_logo img {
     width: 100px;
+    height: 60px;
   }
 }
 @media only screen and (max-width: 575px) {
   .header_logo img {
-    width: 75px;
+    width: 80px;
+    height: 40px;
   }
 }
 
