@@ -19,7 +19,7 @@ const slidesContent = [
         description: "Dive into the gooey, cheesy goodness of our ultimate pepperoni slice. Perfectly baked with a crispy crust and loaded with pepperoni, this slice is a treat for all pizza lovers.",
         price: "₹399",
     },
-    { heading: "Food Item 1", description: "Delicious food item 1 description.", price: "$10.99" },
+    { heading: "Cheeseburger", description: "A taste sensation that satisfies every craving.", price: "₹319" },
 ];
 function typeWriter(e, t, i = 100)
 {
