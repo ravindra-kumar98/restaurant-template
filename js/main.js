@@ -2,7 +2,17 @@
 {
     ('use strict');
 
-    // new WOW().init();
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset: 100,
+            // callback: function (box)
+            // {
+            //     console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            // }
+        }
+    );
+    wow.init();
 
     /*---background image---*/
     // function dataBackgroundImage()
@@ -39,16 +49,16 @@
     // });
 
     // Slick Slider Activation
-    // var $sliderActvation = $('.slick__activation');
-    // if ($sliderActvation.length > 0)
-    // {
-    //     $sliderActvation.slick({
-    //         prevArrow:
-    //             '<button class="prev_arrow"><i class="ion-arrow-left-c"></i></button>',
-    //         nextArrow:
-    //             '<button class="next_arrow"><i class="ion-arrow-right-c"></i></button>',
-    //     });
-    // }
+    var $sliderActvation = $('.slick__activation');
+    if ($sliderActvation.length > 0)
+    {
+        $sliderActvation.slick({
+            prevArrow:
+                '<button class="prev_arrow"><i class="ion-arrow-left-c"></i></button>',
+            nextArrow:
+                '<button class="next_arrow"><i class="ion-arrow-right-c"></i></button>',
+        });
+    }
 
     // Slick Slider Activation
     // $('.product_gallery_main_img').slick({
